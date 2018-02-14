@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<head>
+				<meta charset="utf-8">
+				<meta name="viewport" content="width=device-width, initial-scale=1.0">
+				<title>JS Tech Challenge</title>
+				<link rel="stylesheet" href="style.css">
+				<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+</head>
+
+<body>
+
+	<div class="container">
+		<div class="image-left">
+			<img src="assets/books.jpg">
+		</div>
+		
+		<div class="text-right">
+			<h1> It's going down for real. </h1>
+			<p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis </p>
+
+			<h2> About you </h2>
+
+			<form>
+				<div class="container-form-names">
+					<div class="form-names">
+						<div class="text-top"> 
+							<label for="first-name">
+								First Name
+							</label>
+						</div>
+						<div class="input-bottom"> 
+							<input type="first-name" placeholder="Jane" required>
+						</div>
+					  </div>
+					 <div class="form-names-last">
+						<div class="text-top"> 
+							<label for="last-name" required>
+								Last Name
+							</label>
+						</div>
+						<div class="input-bottom"> 
+							<input type="last-name" placeholder="Doe" required>
+						</div> 
+					</div>
+				</div>
+
+				<div class="form-choice">
+					<label for="book-choice">
+						Type of Book Choice
+					</label>
+					<select name="BookChoice">
+						<option value="hardback">Hardback</option>
+						<option value="paperback">Paperback</option>
+						<option value="kindle">Kindle</option>
+					</select>
+
+				</div>
+
+				<div class="form-phone">
+					<label for="phone-number">
+					  Phone number
+					</label>
+					<input type="phone-number" placeholder="555-555-5555" pattern="^\d{3}-\d{3}-\d{4}$" required>
+				</div>
+
+				<button type="submit">Send</button>
+			  </form>
+		</div>
+	</div>
+			
+</body>
+</html>
